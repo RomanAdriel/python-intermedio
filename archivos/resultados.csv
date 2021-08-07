@@ -1,0 +1,4 @@
+idlibros,isbn,titulo,autor,ano_publicacion,editorial,idioma,formato,stock,creado_por,hora_creacion,modificado_por,hora_modificacion
+9,1000-1900,El Lobo Estepario,Hermann Hesse,2005,Losada,Español,"e-book, azw3",1000,roman,2021-07-14 21:49:26,roman,2021-07-14 21:49:26
+11,1000-1900,test1,test1,1111,test1,test1,test1,1111,roman09@roman.com,2021-07-14 21:50:58,roman09@roman.com,2021-07-14 21:50:58
+12,1000-1900,test1,test1,1000,test1,test1,test1,1000,roman09@roman.com,2021-07-14 21:51:25,roman09@roman.com,2021-07-14 21:51:25
