@@ -1,13 +1,9 @@
-from biblioteca.login import login, menu
-from config.conector_db import crear_db, rellenar_db
+from biblioteca.login import Login
+from config.conector_db import ConectorDB
 
+if __name__ == '__main__':
 
-def main():
-
-    crear_db()
-    rellenar_db()
-    email_validado = login()
-    menu(email_validado)
-
-
-__init__: main()
+    ConectorDB().crear_db()
+    ConectorDB().rellenar_db()
+    email_validado = Login().login()
+    Login().menu(email_validado)
