@@ -59,16 +59,16 @@ class Login:
             while menu_var == 0:
                 if opcion_ingresada in opciones_menu.keys():
                     if opcion_ingresada == 1:
-                        Operaciones.ingresar_libro(cursor, conexion, email)
+                        Operaciones().ingresar_libro(cursor, conexion, email)
 
                     elif opcion_ingresada == 2:
-                        Operaciones.eliminar_libro(cursor, conexion)
+                        Operaciones().eliminar_libro(cursor, conexion)
 
                     elif opcion_ingresada == 3:
-                        Operaciones.modificar_libro(email, cursor, conexion)
+                        Operaciones().modificar_libro(email, cursor, conexion)
 
                     elif opcion_ingresada == 4:
-                        Operaciones.consultar_libro(cursor)
+                        Operaciones().consultar_libro(cursor)
 
                     elif opcion_ingresada == 5:
                         cambio_email = self.cambiar_cuenta()
