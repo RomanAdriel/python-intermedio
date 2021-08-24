@@ -1,9 +1,7 @@
-# Diplomatura_TP
+# Diplomatura_TP: python intermedio
 Repositorio para trabajar sobre el TP de la diplomatura en Python
 
 Integrantes:
-- Agustín Suarez
-- Juan Manuel Patiño
 - Román Adriel Díaz
 - Gerardo Agustin Cabrera
 
