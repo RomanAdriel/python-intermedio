@@ -59,3 +59,7 @@ Happy Path:
  6) Modificar el libro (utilizar nombres de columna válidos)
  7) Volver a consultar el libro (se podrá ver que el timestamp de la creación difiere de la modificación, así como los usuarios)
  8) Salir
+
+Pendientes
+
+Rediseñar el programa usando el patrón MVC y agregar HTML.
