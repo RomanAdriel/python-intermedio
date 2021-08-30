@@ -47,7 +47,7 @@ El programa inicializa en el módulo programa_principal, levantando la base de d
 El usuario va a tener en el menú la posibilidad de realizar las actividades típicas de un CRUD, recibiendo un feedback por parte del programa en estas acciones. 
 Como agregado, el usuario puede "cambiar de cuenta" durante la ejecución del programa. Lo que hace esta opción es básicamente cambiar el mail y el usuario por uno nuevo, cosa que puede verse reflejada cuando se hace una modificación o inserción de algún libro y en el mensaje de despedida al elegir "Salir". 
 Una vez el programa deje de ejecutarse, la información permanecerá en base de datos hasta la próxima ejecución en que nuevamente se hará un DROP. Por otra parte, el usuario podrá descargar un archivo .csv con la información al momento de haber sido consultada, que se guardará en la carpeta "archivos" dentro del proyecto.
-
+Para esta entrega intermedia, se crearon clases para cada módulo. 
 
 Happy Path:
 
